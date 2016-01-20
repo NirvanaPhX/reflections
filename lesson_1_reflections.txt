@@ -1,0 +1,27 @@
+By viewing a diff betweeen two versions of a file, it is easy to find a typo as it shows the differences betweeen the two.
+
+Question 2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If one makes a typo during the programming, it is much easier to find the mistakes by comparing it to an old version of the file instead of trying to find it manually by viewing the file with possible hundreds or thusands of lines.
+
+Question 3: What do you think are the pros and cons of manually choosing when to create a commit. like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: Manually choose to create a commit in Git gives it more flexbility to avoid a too big or too small commit subjectively. Also, you can access it from your own PC all time unlike Google Docs. Google Docs have limitation that it could only save commits within 30 days.
+
+Cons: For forgetful programmers, it can be a disaster if one forgets to manually commit after a big change.
+
+Quesiton 4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Some coding files can be interrelated to build up one programm and all the files need to be changed to achieve a single purpose. It could be time-saving and more efficient to do multiple files in one commit rather than find and change it in every single file.
+
+Question 5: How can you use the commands git log and git diff to view the history of files?
+
+Firstly, type in "git log" in command line and find the ID of the file you are looking for. If the file didn't show up use "down arrow" to scroll down and find it. Then, type in "git diff" followed by the ID number of the two files you are going to compare(You can just type in the first four or more characters of the ID number). 
+
+Question 6: How might using version control make you more confident to make changes that could break something?
+
+With version control you have a copy of the older version of your project and when your changes break something, you can always go back and compare the two versions of the code. It will be not hard to find the mistake and you do not have to go over hundreds of lines.
+
+Question 7: Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using Git for version control.
