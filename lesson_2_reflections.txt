@@ -1,0 +1,3 @@
+Question 1: What happens when you initialize a repository? Why do you need to do it?
+
+When intializing a repository, Git starts to create a repository for all the files. It has to be done for Git to start tracking the changes within the repository.
